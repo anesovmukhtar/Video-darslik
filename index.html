@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HEYGEN Video Platforma</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="logo">HEYGEN</div>
+  <input type="text" id="searchInput" placeholder="Video qidirish...">
+</header>
+
+<nav class="categories">
+  <button class="cat-btn active" data-category="all">Barchasi</button>
+  <button class="cat-btn" data-category="programming">Dasturlash</button>
+  <button class="cat-btn" data-category="languages">Tilllar</button>
+  <button class="cat-btn" data-category="math">Matematika</button>
+  <button class="cat-btn" data-category="physics">Fizika</button>
+</nav>
+
+<section class="videos" id="videoContainer">
+
+  <!-- Dasturlash -->
+  <div class="card" data-category="programming">
+    <iframe src="https://www.youtube.com/embed/Ke90Tje7VS0"></iframe>
+    <h3>React darslari</h3>
+    <p>Dasturlash</p>
+  </div>
+
+  <div class="card" data-category="programming">
+    <iframe src="https://www.youtube.com/embed/PkZNo7MFNFg"></iframe>
+    <h3>JavaScript darslari</h3>
+    <p>Dasturlash</p>
+  </div>
+
+  <!-- Tilllar -->
+  <div class="card" data-category="languages">
+    <iframe src="https://www.youtube.com/embed/1M8h0f5nJzk"></iframe>
+    <h3>Ingliz tili darsi</h3>
+    <p>Tillar</p>
+  </div>
+
+  <div class="card" data-category="languages">
+    <iframe src="https://www.youtube.com/embed/HkHj1rX2gIc"></iframe>
+    <h3>Ispan tili darsi</h3>
+    <p>Tillar</p>
+  </div>
+
+  <!-- Matematika -->
+  <div class="card" data-category="math">
+    <iframe src="https://www.youtube.com/embed/2OJizM9W3uQ"></iframe>
+    <h3>Algebra asoslari</h3>
+    <p>Matematika</p>
+  </div>
+
+  <div class="card" data-category="math">
+    <iframe src="https://www.youtube.com/embed/0KtZyU5mYwo"></iframe>
+    <h3>Calculus darsi</h3>
+    <p>Matematika</p>
+  </div>
+
+  <!-- Fizika -->
+  <div class="card" data-category="physics">
+    <iframe src="https://www.youtube.com/embed/xGv9Yz6aZ0Y"></iframe>
+    <h3>Fizika asoslari</h3>
+    <p>Fizika</p>
+  </div>
+
+  <div class="card" data-category="physics">
+    <iframe src="https://www.youtube.com/embed/rtuZtS0T9bA"></iframe>
+    <h3>Mechanics darsi</h3>
+    <p>Fizika</p>
+  </div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
